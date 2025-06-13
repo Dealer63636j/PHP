@@ -5,10 +5,9 @@
 
     echo 'The original value of a is: '.$a.' and b is :'.$b.'<br/>';
 
-    $a=$a+$b;
-    $b=$a-$b;
-    $a=$a-$b;
-
+    $temp=$b;
+    $b=$a;
+    $a=$temp;
 
     echo 'The change value of a is: '.$a.' and b is :'.$b;
 ?>
